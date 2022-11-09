@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: rebeccapurple;
+    width: 1440px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    width: 1440px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.name-ul {
+    background-color: aqua;
+}
+
+.buttons-ul {
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    padding-right: 550px;
+}
+
+.buttons {
+    color: aliceblue;
+}
+
+.buttons-nav {
+    background-color: aqua;
+}
+
+.main-div {
+    padding-left: 35px;
+    background: aliceblue;
+}
+
+.text-p {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: aqua;
+}
+
+.web {
+    margin-top: 45px;
+    margin-right: 80px;
+    margin-bottom: 33px;
+    color: aliceblue;
+}
+
+footer img {
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-bottom: 33px;
+    width: 205px;
+}
+
+.godmaster {
+    padding-top: 100%;
+}
