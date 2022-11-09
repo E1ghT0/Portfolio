@@ -4,10 +4,12 @@
     border: 0;
     box-sizing: border-box;
     font-family: Helvetica;
+    transition: .5s ease-in-out;
 }
 
 a {
     text-decoration: none;
+    outline: none;
 }
 
 li {
@@ -46,6 +48,7 @@ body {
     padding-left: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .name-ul {
@@ -96,8 +99,4 @@ footer img {
     padding-left: 80px;
     padding-bottom: 33px;
     width: 205px;
-}
-
-.godmaster {
-    padding-top: 100%;
 }
