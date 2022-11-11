@@ -57,9 +57,12 @@ body {
 
 .buttons-ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 36px;
-    padding-right: 550px;
+}
+
+.buttons-li {
+    margin-right: 20px;
 }
 
 .buttons {
@@ -99,4 +102,8 @@ footer img {
     padding-left: 80px;
     padding-bottom: 33px;
     width: 205px;
+}
+
+@media  screen and (max-width: ) {
+
 }
